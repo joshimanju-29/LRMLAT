@@ -72,7 +72,7 @@
                         <p style="margin: -0PX 0 -9px;">
                             <asp:Label ID="Label5" runat="server" Text="अशोक चक्र/कीर्ति चक्र/शौर्य चक्र विजेता" Style="font-weight: 700; font-size: large; font-family: Calibri;"></asp:Label></p>
                         <p style="MARGIN-TOP: 5PX;">
-                            <asp:Label ID="Label6" runat="server" Text="ASHOK CHAKRA/KIRTI CHAKRA/ SHAURYA CHAKRA AWARDEE" Style="font-weight: 700; font-size: large; font-family: Calibri; margin-top: -5px"></asp:Label>
+                            <asp:Label ID="Label6" runat="server" Text="ASHOKA CHAKRA/KIRTI CHAKRA/ SHAURYA CHAKRA AWARDEE" Style="font-weight: 700; font-size: large; font-family: Calibri; margin-top: -5px"></asp:Label>
                         </p>
                     </div>
 
