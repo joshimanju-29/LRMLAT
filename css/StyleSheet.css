@@ -1,0 +1,47 @@
+﻿*, *:after, *:before {
+/*-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+-ms-box-sizing:border-box;*/
+box-sizing:border-box;
+
+}
+body {
+font-family:Arial;
+font-size:16px;
+margin:0;
+background:#808080;
+min-height:100vh;
+
+}
+.multi_select_box
+{
+width:400px;
+margin:80px auto;
+
+}
+    .multi_select_box select {
+    
+    width:100%;
+    }
+
+    .multi_select_box button {
+    
+   background-color:aqua;
+   color:azure;
+   padding: 15px,25px;
+    }
+.search_select_box {
+    max-width:400px;
+    margin:80px auto;
+    }
+.search_select_box select {
+
+    width:100%;
+}
+.search_select_box button {
+
+    background-color:aqua;
+    padding : 15px, 25px;
+    color:aquamarine;
+    font-size:20px;
+}

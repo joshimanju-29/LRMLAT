@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="Content/css/MasterStyleSheet.css" />
+    <link type="text/css" rel="stylesheet" href="Content/css/PageStyleSheet.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style=" background-image:url(Content/images/bp.jpg); height:100%; width:100%; background-position:center; background-repeat:no-repeat; background-size:cover">
+    <form id="form1" runat="server">
+        <div style="width:80%; height:20%; background-color:rgba(251, 245, 245, 0.60); margin-left:10%; text-align:center">
+            <hr />   
+            <table style="width:100%; height:100%">
+                <tr>
+                    <td colspan="12"></td>
+                </tr>
+                <tr>
+                    <td colspan="1" rowspan="2">
+                        <asp:ImageButton ID="ImageButton1" runat="server" Height="100px" Width="80px" ImageUrl="~/content/images/emblem.png"/>
+                    </td>
+                     <td colspan="1" rowspan="2" style="text-align:left">
+                         <asp:Label ID="Label3" runat="server" Text="गृह मंत्रालय" style="font-weight: 700; font-size: x-large"></asp:Label><br />
+                         <asp:Label ID="Label4" runat="server" Text="Ministry of" style="font-size: x-large"></asp:Label><br />
+                         <asp:Label ID="Label6" runat="server" Text="Home Affairs" style="font-size: x-large;"></asp:Label><br />
+                         <asp:Label ID="Label8" runat="server" Text="Govt. of India" style="font-size: x-large; font-weight: 700"></asp:Label>
+
+                    </td>
+                    <td colspan="8" rowspan="1">
+                        <asp:Label ID="Label1" runat="server" Text="Ashoka Chakra/Kirti Chakra/Shaurya Chakra Awardee" Font-Size="20px" ForeColor="Black" ></asp:Label>
+                    </td>
+                     <td colspan="2" rowspan="2">
+                        <asp:ImageButton ID="ImageButton2" runat="server" Height="80px" Width="180px" ImageUrl="~/content/images/sbl.png"/>
+                    </td>
+                </tr>
+                 <tr>
+                    <td colspan="12"></td>
+                </tr>
+            </table>                
+        </div>
+    
+
+
+        <div style="width:80%; height:70%; background-color:rgba(251, 245, 245, 0.60); margin-left:10%; margin-top:20px; text-align:center">
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+
+
+
+        <div style="width:80%; height:10%; background-color:rgba(251, 245, 245, 0.60); margin-left:10%; margin-top:20px; text-align:center">
+        <hr />  
+            <br />
+            <br />
+        </div>
+    </form>
+</body>
+</html>

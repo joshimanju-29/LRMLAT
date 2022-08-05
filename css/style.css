@@ -1,0 +1,158 @@
+﻿body {
+    font-family: sans-serif;
+}
+.card_outer {
+    height: 357px;
+    width: 241px;
+    border-radius: 10px;
+    border-top: 4px solid #ae1925;
+    border-bottom: 4px solid #1a3c85;
+    background-color: #ebebeb;
+}
+.uperLogo {
+    text-align: left;
+    padding:0px 0px;
+    width:100%;
+}
+.uperLogo img{
+    width: 60px;
+}
+.hindifontTitl {
+    width: 100%;
+    text-align: center;
+    background-color: #a20413;
+    padding:2px 0px;
+}
+
+.engfontTitl {
+    width: 100%;
+    text-align: center;
+    background-color: #06144e;
+    padding: 2px 0px;
+
+}
+.hindifontTitl span {
+    display: block;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 600;
+}
+.engfontTitl span {
+    display: block;
+    color: #ffffff;
+}
+.engfontTitl span:first-child {
+    text-transform: uppercase;
+    font-size: 7px;
+}
+    .engfontTitl span:nth-child(2) {
+        text-transform: capitalize;
+        font-size: 9px;
+        padding-top:2px;
+    }
+    .engfontTitl span:nth-child(2) {
+        text-transform: capitalize;
+        font-size: 9px;
+        padding-top:2px;
+    }
+{
+    border-bottom: 5px solid #09406b;
+}
+.dpImg {
+    text-align: center;
+    padding: 2px 0px;
+    width: 100%;
+}
+    .dpImg img {
+        width: 70px;
+        height: 70px;
+    }
+.detailAvtar span {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 1px 0px;
+    color: #000;
+}
+.nameDetal span:first-child {
+    text-transform:capitalize;
+}
+.detailAvtar {
+    padding: 0px 0px 0px 5px;
+    width: 60%;
+    float: left;
+}
+.signAuth {
+    width: 47%;
+    float: right;
+    margin-top: 38px;
+    padding-right: 2px;
+    text-align: center;
+}
+.signAuth img{height:30px;}
+    .signAuth p {
+        text-transform: capitalize;
+        text-align: right;
+        font-size: 9px;
+        font-weight: 600;
+        margin: 0px;
+        margin-right:2px;
+    }
+.nameDetal {
+    padding: 0px 0px 0px 5px;
+}
+    .nameDetal span {
+        display: block;
+        font-size: 11px;
+        font-weight: 600;
+        padding: 1px 0px;
+        color: #000;
+    }
+.signAuthOtr {
+    width: 98%;
+    overflow: hidden;
+    height: 79px;
+}
+
+
+
+/*back view*/
+
+.cardBackouter {
+    /*height: 357px;
+    width: 241px;*/
+     height: 357px;
+    width: 230px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #ededed;
+}
+.listDetail {
+    width: 98%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.listDetailInner{width:50%;
+                 float:left;
+}
+    .listDetailInner p {
+        font-size: 11px;
+        margin: 0px;
+        font-weight: 600;
+    }
+    .listDetailInner span {
+        font-size: 11px;
+        display: block;
+        font-weight: 600;
+    }
+.fixText p {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 19px;
+}
+.fixText {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}

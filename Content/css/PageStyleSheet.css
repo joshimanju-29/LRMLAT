@@ -1,0 +1,10 @@
+﻿.labelSmall {font-size:small;}
+.labelMedium {font-size:medium;}
+.labelBig {font-size:x-large;}
+.txtboxSmall {Width:38%; height:21px; font-family:Calibri}
+.txtboxMedium {Width:50%; height:21px; font-family:Calibri}
+.txtboxBig {Width:80%; height:21px; font-family:Calibri}
+.txtboxX-Big {Width:92%; height:21px; font-family:Calibri}
+.dropdownSmall {Width: 27%; height:27px; font-family:Calibri}
+.dropdownMedium {Width: 40%; height:27px; font-family:Calibri}
+.dropdownBig {Width: 80%; height:27px; font-family:Calibri}
